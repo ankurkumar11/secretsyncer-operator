@@ -1,12 +1,5 @@
 
-
-````markdown
 # Kubernetes Secret Syncer Operator
-
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
-![Kubernetes](https://img.shields.io/badge/kubernetes-v1.20+-326ce5.svg?style=for-the-badge)
-![Helm](https://img.shields.io/badge/helm-v3-0f1689.svg?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
 
 A lightweight, Python-based Kubernetes Operator that automatically synchronizes Secrets across all namespaces in your cluster.
 
