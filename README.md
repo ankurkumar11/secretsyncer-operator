@@ -16,13 +16,13 @@ Add the Helm repository:
 
 ```bash
 helm repo add my-syncer [https://ankurkumar11.github.io/secretsyncer-operator/](https://ankurkumar11.github.io/secretsyncer-operator/)
-helm repo update
+helm repo update ```
 
 Install the Operator:
-
+```bash
 helm install secret-operator my-syncer/secret-syncer \
   --namespace operators \
-  --create-namespace
+  --create-namespace ```
 
 
 Basic Usage
@@ -30,8 +30,10 @@ To sync any secret, simply add the label syncer=true to it.
 
 kubectl create secret generic my-api-key --from-literal=key=super-secret
 kubectl label secret my-api-key syncer=true
+
 The secret my-api-key will immediately appear in all other namespaces.
 
+USE CASE
 
 Cert-Manager (Wildcard Certs)
 This is the primary use case. To sync a generic Wildcard Certificate managed by cert-manager:
