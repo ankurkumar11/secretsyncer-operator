@@ -1,0 +1,5 @@
+sync_operator.py
+Dockerfile
+venv/
+__pycache__/
+*.pyc

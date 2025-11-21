@@ -1,0 +1,10 @@
+# Default values for secret-syncer.
+
+image:
+  repository: ankurkumar11/k8secret-syncer
+  tag: "v1"
+  pullPolicy: Always
+
+serviceAccount:
+  create: true
+  name: "secret-syncer-sa"
