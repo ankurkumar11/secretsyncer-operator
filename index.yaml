@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  secret-syncer:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-11-21T03:35:58.039285316Z"
+    description: A Helm chart for the Secret Syncer Operator
+    digest: 35792905625a051a20726f08eb5e26bd3bc8bfadbc03f726af2e41f0d8edf25c
+    name: secret-syncer
+    type: application
+    urls:
+    - https://github.com/ankurkumar11/secretsyncer-operator/releases/download/secret-syncer-0.1.2/secret-syncer-0.1.2.tgz
+    version: 0.1.2
+generated: "2025-11-21T03:35:58.039295515Z"
